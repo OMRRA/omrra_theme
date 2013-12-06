@@ -9,9 +9,6 @@ body {
 	color: #bbb;
 	background-color: #1d1d1d;
 }
-#page {
-	background: #111;
-}
 
 /* Headings */
 hr {
@@ -93,7 +90,8 @@ a {
 /* =Content
 ----------------------------------------------- */
 #main {
-	background-color: #222;
+	background: #222;
+	background: rgba(2, 2, 2, .8);
 }
 #slider { 
 	background-color: #111111;

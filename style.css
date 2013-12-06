@@ -10,6 +10,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: dark, light, blue, white, black, gray, green, red, brown, one-column, two-columns, left-sidebar, right-sidebar, fixed-width, flexible-width, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-image-header, featured-images, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready
 */
 
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
+
 /* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
 -------------------------------------------------------------- */
 
@@ -70,6 +72,10 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	padding-top: 2em;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 }
 #page {
 	margin: 0 auto 2em;
@@ -237,15 +243,11 @@ body {
 
 body, input, textarea {
 	color: #373737;
-	font: 15px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 17px 'Open Sans', sans-serif;
 	font-weight: 300;
 	line-height: 1.625;
 }
-body {
-	background: #ccc;
-}
 #page {
-	background: #eee;
 	-moz-border-radius: 5px;
     border-radius: 5px;
 }

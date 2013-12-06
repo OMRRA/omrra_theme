@@ -146,8 +146,8 @@ function catchbox_setup() {
 
 	// The height and width of your custom header used for site logo.
 	// Add a filter to catchbox_header_image_width and catchbox_header_image_height to change these values.
-	define( 'HEADER_IMAGE_WIDTH', apply_filters( 'catchbox_header_image_width', 300 ) );
-	define( 'HEADER_IMAGE_HEIGHT', apply_filters( 'catchbox_header_image_height', 125 ) );
+	define( 'HEADER_IMAGE_WIDTH', apply_filters( 'catchbox_header_image_width', 940 ) );
+	define( 'HEADER_IMAGE_HEIGHT', apply_filters( 'catchbox_header_image_height', 353 ) );
 
 	// We'll be using post thumbnails for custom header images for logos.
 	// We want them to be the size of the header image that we just defined
