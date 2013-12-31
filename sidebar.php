@@ -17,7 +17,7 @@ do_action( 'catchbox_above_secondary' );
 $options = catchbox_get_theme_options();
 $layout = $options['theme_layout'];
 	
-if ( $layout == 'content-onecolumn' || $layout == 'no-sidebar' || is_page_template( 'page-disable-sidebar.php' ) || is_page_template( 'page-fullwidth.php' ) || is_page_template( 'page-onecolumn.php' ) ) : 
+if ( $layout == 'content-onecolumn' || $layout == 'no-sidebar' || is_page_template( 'page-disable-sidebar.php' ) || is_page_template( 'page-fullwidth.php' ) || is_page_template( 'page-onecolumn.php' ) || is_page_template( 'page-trackintel-results.php' ) ) : 
 	return false;
 else :
 ?>

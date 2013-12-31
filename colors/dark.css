@@ -261,6 +261,12 @@ a:active img[class*="wp-image-"] {
 
 /* =error404
 ----------------------------------------------- */
+#content .error404 {
+	background: transparent;
+}
+#content .error404 .entry-title {
+	color: #fff;
+}
 .error404 #main #searchform {
 	background: #060606;
 	border-color: #222;
@@ -619,4 +625,60 @@ li.bypostauthor a.comment-reply-link:active {
 	.commentlist .children > li.bypostauthor > article .comment-meta {
 		color: #959595;
 	}
+}
+
+/* =Events Calendar
+----------------------------------------------- */
+.events-list #content, .events-single #content, .events-gridview #content {
+	width: auto;
+	margin: 0 3%;
+}
+#tribe-events-content .type-tribe_events {
+	padding: 2em;
+}
+#tribe-events-content .time-details {
+	font-weight: 300;
+}
+#tribe-events-content .tribe-events-venue-details {
+	font-weight: 500;
+}
+#tribe-events-content .tribe-events-single-section {
+	background: transparent;
+	font-size: inherit;
+	border: none;
+	border-bottom: 2px solid #222;
+	margin: 0;
+}
+#tribe-events-content .tribe-events-meta-group {
+	width: 50%;
+	padding: 0;
+}
+#tribe-events-content .tribe-events-single-section-title {
+	marign: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+}
+#tribe-events-content .tribe-events-venue-map {
+	width: 50%;
+	margin: 30px 0 0 0;
+	border: none;
+	padding: 0;
+}
+#tribe-events-content .tribe-events-list-separator-month {
+	background: transparent;
+	text-align: center;
+}
+#tribe-events-content .tribe-events-event-cost span {
+	border: none;
+	background: #222;
+}
+#tribe-events-content table.tribe-events-calendar {
+	border: 1px solid #222;
+	background: rgba(0,0,0,.5);
+}
+#tribe-events-content table.tribe-events-calendar div[id*="tribe-events-daynum-"] {
+	background-color: #222;
+}
+#tribe-events-content table.tribe-events-calendar td {
+	border: 1px solid #222;
 }
